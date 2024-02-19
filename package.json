@@ -1,0 +1,26 @@
+{
+  "name": "flexm_killbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elson1980/FLEXM-Killbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elson1980/FLEXM-Killbot/issues"
+  },
+  "homepage": "https://github.com/Elson1980/FLEXM-Killbot#readme",
+  "dependencies": {
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.4.4",
+    "nodemon": "^3.0.3"
+  }
+}
