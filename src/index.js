@@ -1,6 +1,7 @@
-const { Client, IntentsBitField } = require("discord.js");
-const path = require("node:path");
-const fs = require("fs");
+const { Client, IntentsBitField, ColorResolvable, DiscordAPIError, MessageOptions, TextChannel } = require("discord.js");
+import { zkillSubscriber } from './events/zKillSubscriber'
+// const path = require("node:path");
+// const fs = require("fs");
 
 require("dotenv").config();
 
@@ -18,7 +19,7 @@ const client = new Client({
 //   .readdirSync(eventsPath)
 //   .filter((file) => file.endsWith(".js"));
 
-// // Handles all event files
+// Handles all event files
 // for (const file of eventFiles) {
 //   const filePath = path.join(eventsPath, file);
 //   const event = require(filePath);
@@ -29,4 +30,5 @@ const client = new Client({
 //   }
 // }
 
+//Login with discord bot token
 client.login(process.env.TOKEN);

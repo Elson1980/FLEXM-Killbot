@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/Elson1980/FLEXM-Killbot#readme",
   "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.0.0",
     "discord.js": "^14.12.1",
     "dotenv": "^16.4.4",
-    "nodemon": "^3.0.3"
+    "nodemon": "^3.0.3",
+    "ws": "^8.16.0"
   }
 }
